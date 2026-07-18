@@ -1,0 +1,12 @@
+{
+  "name": "chromachar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A zero-dependency text colorizer with live previews and exports for BBCode, HTML, and Unity.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "node --check script.js",
+    "start": "python3 -m http.server 3000",
+    "lint": "node --check script.js"
+  }
+}
